@@ -1,61 +1,62 @@
-## InnovateX HR Analysis
+## UK Road Accident Analysis)
 
 ### Problem Statement
-The objective of this assignment is to analyze the InnovateX HR dataset and extract meaningful insights to improve HR operations, enhance employee satisfaction, and optimize talent management strategies. By examining the HR data, we aim to address various aspects of the organization's human resources that can contribute to creating a positive work environment, optimizing talent management strategies, and driving organizational success. The analysis will be conducted using Advanced Power BI visualizations and filters to provide an interactive and insightful dashboard.
+As a beginner in data analytics, the objective of this assignment is to analyze the UK road accident dataset and gain insights into factors affecting road safety and accident severity. By examining the dataset, we aim to explore various aspects of road accidents and address the following questions. By addressing these questions and conducting exploratory analysis on the UK road accident dataset, we aim to gain insights into road safety and accident prevention. The analysis will be conducted using Advanced Power BI visualizations and filters to provide an interactive and insightful dashboard.
 
 ### Dashboard Components
 
-1. **Total Attrition Count and Total Employees:**
-   - Calculate and visualize the total attrition count and the total number of employees in the organization.
+1. **Total Casualties and Average Speed Limit:**
+   - Calculate and visualize the total number of casualties and the average speed limit across all accidents.
 
-2. **Attrition Rate by Gender for Different Age Groups:**
-   - Analyze the attrition rate by gender for different age groups, such as under 25, 25 - 34, 35 - 45, and over 45, to understand attrition patterns.
+2. **Police Force with the Highest Number of Reported Accidents:**
+   - Identify the police force with the highest number of reported accidents to understand regional variations in accident frequency.
 
-3. **Attrition Count by Department:**
-   - Examine the attrition count by department to identify departments with higher attrition rates.
+3. **Districts with More than 1000 Reported Accidents:**
+   - Determine the districts where the number of reported accidents exceeds 1000 to identify high-risk areas.
 
-4. **Employee Count by Job Role and Performance Rating:**
-   - Determine the number of employees for each job role, categorized by their performance rating, to assess the distribution of performance across job roles.
+4. **Vehicle Types Involved in the Highest Number of Accidents:**
+   - Analyze the vehicle types involved in the highest number of accidents to identify common contributing factors.
 
-5. **Average Hourly Rate by Department:**
-   - Calculate and visualize the average hourly rate by department to understand the compensation structure.
+5. **Relationship Between Number of Vehicles and Casualties:**
+   - Explore the relationship between the number of vehicles involved in an accident and the average number of casualties to understand the impact of multiple vehicle collisions.
 
-6. **Average Monthly Income by Job Role and Gender:**
-   - Analyze the average monthly income by job role and gender to identify any gender-based income disparities and job role variations.
+6. **Trend of Accidents Over Time:**
+   - Analyze the trend of accidents over time, including year, quarter, month, and even day, to identify any patterns or seasonality in accident occurrence.
 
-7. **Relation Between Attrition and Percent Salary Hike:**
-   - Explore the relationship between attrition and the percent salary hike to understand if there is a correlation between these factors.
+7. **Common Junction Types Associated with Accidents:**
+   - Determine the junction types that are commonly associated with accidents to highlight potential areas for improved road design or safety measures.
 
-8. **Top 10 Employees with the Highest Salary:**
-   - Identify and showcase the top 10 employees with the highest salaries in the company.
+8. **Most Affected Districts in Terms of Accidents:**
+   - Identify the districts that are most affected by accidents to prioritize targeted interventions and allocate resources effectively.
 
-9. **Dynamic Filtering by Marital Status:**
-   - Enable dynamic filtering by marital status to observe how the data in the report page changes based on marital status selection.
+9. **Effect of Road Surface Conditions on Accident Severity:**
+   - Analyze how road surface conditions affect accident severity to understand the importance of road maintenance and surface quality.
+
+10. **Slicers for Accident Severity and District:**
+    - Add slicers for accident severity and district to allow users to filter the entire report page based on these parameters.
 
 ### Dataset Explanation
 
-The InnovateX HR dataset contains the following columns:
+The UK road accident dataset contains the following columns:
 
-- **EmployeeNumber:** An identifier or unique number assigned to each employee in the dataset.
-- **Age:** The age of an employee, typically measured in years.
-- **Attrition:** A categorical variable indicating whether an employee has left the company or is still employed (e.g., "Yes" or "No").
-- **AttritionCount:** A numerical value indicating the count or frequency of attrition for a particular employee.
-- **BusinessTravel:** Describes the frequency or type of business travel an employee engages in (e.g., "Travel Frequently," "Travel Rarely," or "Non-Travel").
-- **Department:** The department or functional area within the company where the employee works (e.g., "Human Resources," "Marketing," or "Information Technology").
-- **DistanceFromHome:** The distance, usually in miles or kilometers, between the employee's home and their workplace.
-- **EducationField:** The field or area of study in which the employee obtained their highest level of education (e.g., "Engineering," "Marketing," or "Human Resources").
-- **Gender:** The gender of an employee, typically categorized as "Male" or "Female."
-- **HourlyRate:** The rate at which an employee is paid per hour of work.
-- **JobRole:** The specific role or position the employee holds within the company (e.g., "Sales Executive," "Research Scientist," or "Human Resources Manager").
-- **JobSatisfactionRating:** A rating or measure of
+- **Accident_Index:** A unique identifier or reference number assigned to each accident in the dataset.
+- **Accident_Date:** The date when the accident occurred.
+- **Day_of_Week:** The day of the week on which the accident took place (e.g., Monday, Tuesday, etc.).
+- **Junction_Detail:** Describes the type or detail of the junction where the accident occurred (e.g., roundabout, crossroads, or T-junction).
+- **Accident_Severity:** Represents the severity or impact of the accident, usually categorized as "Fatal," "Serious," or "Slight."
+- **Latitude:** The geographical latitude coordinate of the accident location.
+- **Longitude:** The geographical longitude coordinate of the accident location.
+- **Light_Conditions:** Describes the lighting conditions present during the accident (e.g., daylight, darkness with street lighting, or darkness without street lighting).
+- **District:** Refers to a specific district or administrative division where the accident occurred.
+- **Number_of_Casualties:** Indicates the total number of people involved and affected by the accident, including both injured and deceased individuals.
+- **Number_of_Vehicles:** Represents the total number of vehicles involved in the accident.
+- **
 
- an employee's satisfaction with their job, often on a scale from 1 to 5 or a similar range.
-- **WorkLifeBalanceRating:** A rating or measure of an employee's perceived balance between work and personal life, typically on a scale from 1 to 5 or a similar range.
-- **PerformanceRating:** A rating or evaluation of an employee's performance, often on a scale from 1 to 5 or a similar range.
-- **MaritalStatus:** Marital status of the employee (e.g., "Married," "Single," or "Divorced").
-- **MonthlyIncome:** The employee's monthly income or salary in the currency of the dataset.
-- **OverTime:** A categorical variable indicating whether the employee works overtime or not (e.g., "Yes" or "No").
-- **PercentSalaryHike:** The percentage increase in the employee's salary compared to the previous period or as part of a salary hike.
-- **YearsAtCompany:** The number of years an employee has worked at the company.
-- **YearsSinceLastPromotion:** The number of years since the employee's last promotion.
-
+Police_Force:** Identifies the police force or authority responsible for handling the accident and its investigation.
+- **Road_Surface_Conditions:** Describes the condition of the road surface at the time of the accident (e.g., dry, wet, icy, or snow-covered).
+- **Road_Type:** Represents the type of road or street where the accident occurred (e.g., motorway, A-road, B-road, or residential street).
+- **Speed_Limit:** The legally enforced speed limit for the road where the accident occurred.
+- **Time:** The time of day when the accident took place.
+- **Urban_or_Rural_Area:** Indicates whether the accident occurred in an urban area or a rural area.
+- **Weather_Conditions:** Describes the prevailing weather conditions at the time of the accident (e.g., clear, rainy, foggy, or snowy).
+- **Vehicle_Type:** Represents the type of vehicle involved in the accident (e.g., car, motorcycle, bicycle, or commercial truck).
