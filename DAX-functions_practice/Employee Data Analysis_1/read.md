@@ -57,7 +57,3 @@ The employee dataset contains the following columns:
 11. Create a new table called 'HighPaidEmp' to store details of employees with an annual salary greater than or equal to 100000.
 
 12. Create a new column called "JoiningYear" to extract the year from the "Hire Date" column.
-
-These transformations will provide us with a deeper understanding of the employee data and enable us to uncover valuable insights about their profiles, tenure, and compensation.
-
-Feel free to explore, customize, and implement these transformations in your analysis project. This README serves as a guide to understanding the objectives and tasks of the project.
