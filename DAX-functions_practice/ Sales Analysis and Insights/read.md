@@ -25,3 +25,21 @@ Welcome to the next phase of our sales analysis project. In this stage, we will 
 9. Create a measure named "TotalSales2013" to calculate total units sold in the year 2013.
 
 10. Add a new column named "Data" that contains the least common multiple of manufacturing price and selling price.
+
+### Dataset Explanation
+
+* Segment - This column represents the segment or category to which a particular sale belongs.
+
+* Country - This column contains the name of the country associated with each sale.
+
+* Product - This column stores the name or identifier of the product that was sold.
+
+* Discount Band - This column captures the discount band or category applicable to the sale.
+
+* Unit Sold - This column records the quantity or number of units sold for each transaction.
+
+* Manufacturing Price - This column denotes the cost or price at which the product was manufactured or produced.
+
+* Selling Price - This column represents the price at which the product was sold to customers.
+
+* Date - This column stores the date associated with each sale.
