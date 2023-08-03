@@ -36,3 +36,31 @@ In this phase of the customer data analysis project, we will further enrich our 
 
 15. Add a new column called "Daily Income" to calculate the daily income for each customer.
 
+### Dataset Explanation
+
+* **CustomerKey** - A unique identifier assigned to each customer.
+
+* **FirstName** - The first name of the customer.
+
+* **LastName** - The last name or surname of the customer.
+
+* **Birthdate** - The date of birth of the customer.
+
+* **Maritstatus** - The marital status of the customer. It represents whether the customer is single or married.
+
+* **Gender** - The gender of the customer. It indicates whether the customer is male (M) or female (F).
+
+* **emailAddress** - The email address of the customer.
+
+* **yearlyIncome** - The annual income of the customer. 
+
+* **TotalChildren** - The total number of children the customer has.
+
+* **NumberOfChildrenAtHome** - The number of children that still live at home for the customer.
+
+* **Education** - The educational qualification of the customer.
+
+* **CommuteDistance** - The distance oit takes for the customer to commute to their workplace.
+
+* **Region** - The geographical region or location associated with the customer.
+
