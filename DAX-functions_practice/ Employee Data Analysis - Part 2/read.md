@@ -35,3 +35,29 @@ In this continuation of the employee data analysis project, we will perform furt
 14. Create a new table named 'EmpDetails' to include all employee details except for the Bonus and City columns.
 
 15. Add a new column called 'NewDepartment' to update values in the Department column.
+
+### Dataset Explanation
+
+* **EEID** - This column represents the unique identification number assigned to each employee.
+
+* **Full Name** - This column stores the complete name of each employee, typically including both the first name and last name.
+
+* **Job Title** - This column contains the job title or position held by each employee. 
+
+* **Department** - This column represents the department to which each employee belongs. 
+
+* **Business Unit** - This column identifies the specific business unit or segment within the organization to which each employee is assigned.
+
+* **Gender** - This column indicates the gender of each employee, typically represented as male or female.
+
+* **Age** - This column stores the age of each employee, representing the number of years since their birth.
+
+* **Hire Date** - This column records the date on which each employee was hired or joined the organization.
+
+* **Annual salary** - This column represents the annual salary or income earned by each employee.
+
+* **Bonus%** - This column stores the bonus percentage applicable to each employee. 
+
+* **Country** - This column identifies the country in which each employee is located. 
+
+* **City** - This column specifies the city or locality associated with each employee.
